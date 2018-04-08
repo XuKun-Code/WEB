@@ -1,0 +1,232 @@
+@CHARSET "UTF-8";
+body{
+
+background:rgb(35,153,251);
+
+font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+
+}
+
+.class{
+
+	clear: both;
+
+}
+
+a{
+
+	text-decoration: none;
+
+}
+
+
+
+#head{
+
+	width: 960px;
+
+	margin:auto;
+
+	color: white;
+
+}
+
+#head h1{
+
+	margin-top: 100px;
+
+}
+
+#wrapper{
+
+	width: 960px;
+
+	height: 490px;
+
+	margin:auto;
+
+}
+
+.main{
+
+	width: 370px;
+
+    height: 362px;
+
+     border-radius: 15px; 
+
+     background-color: white;
+
+      float: left;
+
+}
+
+.side{
+
+width: 500px;
+
+height: 500px;
+
+  float: right;
+
+}
+
+
+
+.main img{
+
+	width: 350px;
+
+margin-left: 10px;
+
+margin-top: 5px;
+
+ border-radius: 15px; 
+
+}
+
+label{
+
+color: white;
+
+font-size: 30px;
+
+font-weight:bold;
+
+text-align: center;
+
+}
+
+
+
+input{
+
+border-radius: 5px;
+
+color:rgb(35,153,251);
+
+margin-left: 10px;
+
+font-weight: bold;
+
+font-size: 20px;
+
+border-radius: 5px; 
+
+}
+
+
+
+.password{
+
+margin-top: 30px;
+
+}
+
+.username{
+
+	margin-top: 10px;
+
+}
+
+
+
+.side h1{
+
+color: white;
+
+margin-left: 90px;
+
+font-size: 35px;
+
+}
+
+.DengLu {
+
+	width: 70px;
+
+	height: 35px;
+
+float: right;
+
+
+margin-top: 47px;
+
+margin-right: 190px;
+
+
+}
+
+
+
+.Zhuce{
+
+
+
+display: inline-block;
+
+
+
+margin-bottom: 20px;
+
+
+
+margin-top: 30px;
+
+
+
+}
+
+
+
+.Zhuce a{
+
+
+
+		color: white;
+
+
+
+	border: solid 1px white;
+
+
+
+	padding: 4px;
+
+
+
+	padding-left: 12px;
+
+
+
+	padding-right: 12px;
+
+
+
+	border-radius: 6px;
+
+
+
+	font-size: 20px;
+
+
+
+	
+
+
+
+}
+
+
+
+.Zhuce{
+
+
+font-weight:bold;
+margin-top: 50px;
+
+
+
+margin-left: 1px;
+
+}

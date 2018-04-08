@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+body{
+background:rgb(35,153,251);
+}
+
+.one{
+	width:100%;
+	height:150px;
+	color: white;
+	font-size: 60px;
+	text-align:center;
+}
+.one-in{
+	padding-top: 35px;
+}
+.two{
+	border-top:1px solid white;
+	height:200px;
+	color: white;
+	font-size: 30px;
+}
+.tree{
+	width:100%;
+	color: white;
+	font-size: 30px;
+	padding-top: 150px;
+}
+.two-one{
+	width: 33%;
+	height: 200px;
+    float: left;
+    margin-top: 20px;
+}
+.two-two{
+	width: 33%;
+	height: 200px;
+    float: left;
+    margin-top: 20px;
+    border-left:1px dashed white;
+}
+.two-tree{
+	width: 33%;
+	height: 200px;
+	float: right;
+	margin-top: 20px;
+	border-left:1px dashed white;
+}
+
+.tree-one{
+    width: 33%;
+	height: 200px;
+    float: left;
+    margin-top: 20px;
+}
+
+.tree-two{
+    width: 33%;
+	height: 200px;
+    float: left;
+    margin-top: 20px;
+    border-left:1px dashed white;
+}
+
+.tree-tree{
+    width: 33%;
+	height: 200px;
+	float: right;
+	margin-top: 20px;
+	border-left:1px dashed white;
+}
+
+p{
+	padding-left: 20px;
+}

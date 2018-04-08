@@ -1,0 +1,187 @@
+body{
+background:rgb(35,153,251);
+font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Î¢ÈíÑÅºÚ",Arial,sans-serif;
+}
+a{
+	color: white;
+	text-decoration: none;
+	border-bottom: dashed 1px rgb(35,153,251);
+}
+h1{
+
+	text-align: center;
+}
+label{
+color:white;
+font-size: 30px;
+font-weight:bold;
+text-align: center;
+
+}
+table{
+color: rgb(35,153,251);	
+font-weight:bold;
+}
+
+.clear{
+	clear: both;
+}
+#head{
+	width: 960px;
+    color: white;
+	margin:auto;
+border-bottom: dashed 1px white;
+margin-bottom: 10px;
+}
+#wrapper{
+	margin: auto;
+	margin-top: 10px;
+	width: 960px;
+	
+}
+.main{
+
+	width:950px;
+   height:500Px;
+	background-color: white;
+	float: left;
+	margin-right: 20px;
+	border-radius: 8px;
+	overflow-x:hidden;
+}
+.side{
+	width: 370px;
+   height:500Px;
+	background-color: white;
+	float: right;
+	border-radius: 8px;
+}
+#footer{
+	width: 960px;
+	height: 60px;
+	margin: auto;
+	border-top: dashed 1px white;
+	margin-top: 30px;
+
+}
+.logo_title{
+	float: left;
+}
+.logo_title h1{
+	font-size: 35px;
+}
+.logo_title h2{
+	font-size: 25px;
+}
+.navi{
+	float: right;
+}
+.navi ul{
+	list-style: none;
+
+}
+.navi ul li{
+	display: inline-block;
+	margin-top: 84px;
+	margin-right: 20px;
+}
+.navi ul li a{
+	color: white;
+	border:solid 1px white;
+    padding: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 6px;
+}
+.site_about{
+		float: left;
+}
+.site_link{
+		float: right;
+}
+.site_about{
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+td{
+	border:solid 1px rgb(35,153,251);
+}
+.site_link ul{
+	list-style: none;
+}
+.site_link ul li{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.site_link ul li a{
+	color: white;
+	border:solid 1px white;
+    padding: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 6px;
+}
+.side form {
+	margin-top: 50px;
+	margin-left: 60px;
+}
+.ss ul li a{
+
+margin-left: 40px;
+	color: white;
+
+	border: solid 1px white;
+
+	padding: 4px;
+
+	padding-left: 14px;
+
+	padding-right: 14px;
+
+	border-radius: 6px;
+
+}
+.ss ul{
+margin-left:200px;
+	list-style: none;
+}
+.ts{
+	margin-top :20px;
+	margin-left:550px;
+}
+.ys{
+	margin-top :20px;
+	margin-left:550px;
+}
+.us{
+	margin-top :20px;
+	margin-left:550px;
+}
+.is{
+	margin-top :20px;
+	margin-left:630px;
+	list-style: none;
+margin-top: 50px;
+
+
+
+		
+}
+a{
+	color: rgb(35,153,251);
+}
+input{
+
+
+
+color: rgb(35,153,251);
+
+
+
+}

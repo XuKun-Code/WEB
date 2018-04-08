@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" >
+ <meta name="description" content="记账">
+<meta name="keywords" content="记账，简单记账">
+	<title>简单记账</title>
+	<link rel="stylesheet" type="text/css" href="NewFile.css"> 
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" >
+ <meta name="description" content="记账">
+<meta name="keywords" content="记账，简单记账">
+	<title>简单记账</title>
+	<link rel="stylesheet" type="text/css" href="Style.css"> 
+</head>
+<body>
+<div id="head">
+	<div class="logo_title">
+		<h1>简单记账</h1>
+		<h2>记账原来也可以这么简单</h2>
+	</div>
+	<div class="navi">
+		<ul>
+			<li><%sesson.username%></li>
+			<li><a href="index.jsp">登陆</a></li>
+			<li><a href="zhuce.jsp">注册</a></li>
+			<li><a href="">退出</a></li>
+
+		</ul>
+	</div>
+	<div class="clear"></div>
+</div>
+<div id="wrapper">
+	<div class="main">
+		 <table>
+		 	<tr>
+		 		<td>类型</td>
+		 		<td>金额</td>
+		 		<td>时间</td>
+		 		<td>备注</td>
+		 	</tr>
+		 	<tr>
+		 		<td>吃</td>
+		 		<td>180</td>
+		 		<td>2016.11.2</td>
+		 		<td>吃鱼虾大餐</td>
+		 	</tr>
+		 </table>
+	</div>
+	<div class="side">
+		<form>
+		<div>
+			<label>金额:</label><input type="text" name="price">			
+		</div>
+		<div>
+			<label>类型:</label><select>
+				<option>请选择</option>
+				<option>吃</option>
+				<option>穿</option>
+				<option>住</option>
+				<option>行</option>
+				<option>玩</option>
+				<option>用</option>
+				
+			</select>			
+		</div>
+		<div>
+			<label>备注</label>
+			<textarea></textarea>
+		</div>
+		<input type="submit" name="">
+		</form>
+	</div>
+	<div class="clear"></div>
+</div>
+<div id="footer">
+<div class="site_about">简单记账，喜欢记账
+</div>
+<div class="site_link">
+		<ul>
+			<li><a href="">关于我们</a></li>
+			<li><a href="">联系我们</a></li>
+			<li><a href="">使用条款</a></li>
+            <li><a href="">意见反馈</a></li>
+		</ul>
+</div>
+<div class="clear"></div>
+</div>
+</body>
+</html>
